@@ -30,13 +30,13 @@ const Login = () => {
   const handleLogin = () => {
     console.log('Login button clicked');
     // Redirect to the backend login endpoint on port 5000
-    window.location.href = 'https://merry-melomakarona-c50f0e.netlify.app/login';
+    window.location.href = 'https://text-editor-s3pa.onrender.com/auth/google/login';
   };
 
   const handleSignupRedirect = () => {
     console.log('Signup button clicked');
     // Redirect to the signup page (frontend route)
-    window.location.href = 'https://merry-melomakarona-c50f0e.netlify.app/signup';
+    window.location.href = 'https://text-editor-s3pa.onrender.com/auth/google/signup';
   };
 
   return (
