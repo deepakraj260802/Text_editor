@@ -6,7 +6,7 @@ const Signup = () => {
   const handleSignup = () => {
     console.log('Signup button clicked');
     // Redirect to backend signup endpoint on port 5000
-    window.location.href = 'http://localhost:5000/auth/google/signup';
+    window.location.href = 'https://text-editor-s3pa.onrender.com/auth/google/signup';
   };
 
   return (
