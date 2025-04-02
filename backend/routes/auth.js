@@ -22,7 +22,8 @@ router.get('/google/signup', passport.authenticate('google', {
     'https://www.googleapis.com/auth/drive.file',
     'https://www.googleapis.com/auth/documents'
   ],
-  state: 'signup'
+  state: 'signup',
+  prompt: 'select_account'
 }));
 
 // OAuth callback route for both flows
