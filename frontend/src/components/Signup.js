@@ -6,7 +6,7 @@ const Signup = () => {
   const handleSignup = () => {
     console.log('Signup button clicked');
     // Redirect to backend signup endpoint on port 5000
-    window.location.href = 'https://text-editor-s3pa.onrender.com/auth/google/signup';
+    window.location.href = 'https://merry-melomakarona-c50f0e.netlify.app/signup';
   };
 
   return (
