@@ -9,7 +9,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(cors({
-  origin: 'https://merry-melomakarona-c50f0e.netlify.app',
+  origin: 'https://enchanting-hotteok-537f42.netlify.app',
   credentials: true
 }));
 app.use(express.json());
