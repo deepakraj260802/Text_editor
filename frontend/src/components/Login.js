@@ -36,7 +36,7 @@ const Login = () => {
   const handleSignupRedirect = () => {
     console.log('Signup button clicked');
     // Redirect to the signup page (frontend route)
-    window.location.href = '/signup';
+    window.location.href = 'https://text-editor-s3pa.onrender.com/auth/google/signup';
   };
 
   return (
