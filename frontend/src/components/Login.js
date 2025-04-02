@@ -30,7 +30,7 @@ const Login = () => {
   const handleLogin = () => {
     console.log('Login button clicked');
     // Redirect to the backend login endpoint on port 5000
-    window.location.href = 'http://localhost:5000/auth/google/login';
+    window.location.href = 'https://text-editor-s3pa.onrender.com/auth/google/login';
   };
 
   const handleSignupRedirect = () => {
